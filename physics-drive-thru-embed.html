@@ -592,7 +592,7 @@ let activeCh = "all";
 let activeCat = "all";
 let keyword = "";
 
-const EMBED_OWN = false; // 自家動畫嵌入實測通過後改 true
+const EMBED_OWN = true; // 2026-10-29 實測 ltedu/learninghub 皆可嵌
 function urlOf(r){
   if(r.type==="yt") return "https://www.youtube.com/watch?v=" + r.id;
   return r.url;
